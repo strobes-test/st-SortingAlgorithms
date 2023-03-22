@@ -1,0 +1,23 @@
+# This file includes files and directories which will be
+# ignored by git
+# ######################################################
+
+# vscode-files
+.vscode/
+
+# git-files
+.git/
+
+# test-files
+test.py
+
+# __pycache__
+*/__pycache__/
+__pycache__/
+
+# files created while building wheel or needed for pypi
+.pypirc
+build/
+dist/
+sort_algorithms.egg-info/
+README.rst
